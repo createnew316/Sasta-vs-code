@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: row;
+}
+#left{
+  width: 20%;
+  height: 100%;
+  background-color: #daddda;
+}
+#left h4{
+  font-size: 1.5vw;
+  margin-left: 4%;
+  margin-top: 6%;
+  color: rgb(34, 85, 213);
+}
+#file{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#left #file form{
+  display: none;
+  flex-direction: column;
+}
+#left #file form input{
+  width: 185px;
+  height: 36px;
+  margin-top: 12%;
+  margin-left: 6%;
+  font-family: Gilroy;
+  font-size: 500;
+  color: black;
+  border-color: rgb(16, 162, 220);
+  box-shadow: 2px 3px 7px rgb(162, 216, 237);
+}
+#left #file .files{
+  width: 100%;
+  height: 40%;
+  position: relative;
+  display: flex;
+}
+.files h5{
+  font-size: 1.3vw;
+  font-family: Gilroy;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 1.5%;
+  color: rgb(69, 67, 67);
+  margin-left: 1vw;
+}
+.files #icon{
+  opacity: 1;
+  font-size: 1.3vw;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 1vw;
+  margin-left: 14vw;
+}
+
+#right{
+  width: 80%;
+  height: 100%;
+  position: relative;
+  background-color: #e5e5e5;
+}
+#right h6{
+  font-size: 1.5vw;
+  font-weight: 300;
+  margin-top: 27%;
+  margin-left: 40%;
+  color: rgb(197, 187, 187);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#right>#rnav{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(242, 240, 240);
+}
+#rnav>#navbar{
+  width: 155px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+background-color: rgb(255, 254, 254);
+}
+#rnav>#navbar>h4{
+  font-size: 1.2vw;
+  margin-top: 8%;
+}
+#rnav>#navbar>i{
+  font-size: 1.6vw;
+  margin-top: 8%;
+}
+#opened{
+  width: fit-content;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+textarea{
+  width: 100%;
+  height: 93%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  outline: none;
+  padding: 30px;
+  font-size: 1.3vw;
+  font-family: "consolas";
+}
